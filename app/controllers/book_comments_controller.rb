@@ -13,7 +13,7 @@ class BookCommentsController < ApplicationController
     comment = BookComment.find(params[:id])
     comment.destroy
     redirect_to request.referer
-    
+
     end
 
     private
